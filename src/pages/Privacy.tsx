@@ -20,7 +20,7 @@ export function Privacy() {
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4">Introduction</h2>
               <p className="text-gray-600 mb-4">
-                At Aerofly Travels, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                At Aerofly Travels, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. By accessing or using our services, you agree to the terms of this Privacy Policy.
               </p>
             </section>
 
@@ -65,6 +65,10 @@ export function Privacy() {
                 <li>Payment processors for secure transactions</li>
                 <li>Legal authorities when required by law</li>
                 <li>Service providers who assist in our operations</li>
+                <li>Other third parties with your consent</li>
+                <li>Business partners for marketing and promotional purposes</li>
+                <li>We may also disclose information when required by law or to protect our rights, property, or safety, or the rights, property, or safety of others.</li>
+
               </ul>
             </section>
 
@@ -73,6 +77,15 @@ export function Privacy() {
               <p className="text-gray-600">
                 We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
               </p>
+              <ul className="list-disc list-inside text-gray-600 mt-4">
+                <li>Secure Sockets Layer (SSL) encryption</li>
+                <li>Firewalls and intrusion detection systems</li>
+                <li>We implement security measures to protect your personal information from 
+                    unauthorised access, use, or disclosure.</li>
+                <li>However, please note that no method of transmission over the Internet or electronic 
+                    storage is 100% secure. While we strive to protect your information, we cannot guarantee 
+                    absolute security.</li>
+              </ul>
             </section>
 
             <section className="mb-8">
@@ -96,8 +109,8 @@ export function Privacy() {
               </p>
               <div className="mt-4">
                 <p className="text-gray-600">Email: privacy@aeroflytravel.com</p>
-                <p className="text-gray-600">Phone: +1 234 567 8900</p>
-                <p className="text-gray-600">Address: 123 Travel Street, City, Country</p>
+                <p className="text-gray-600">Phone: +91 8586980421</p>
+                <p className="text-gray-600">Address: Delhi India</p>
               </div>
             </section>
 

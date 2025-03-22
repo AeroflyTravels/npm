@@ -71,8 +71,63 @@ export function OtherServices() {
     },
     {
       icon: <Shield className="h-12 w-12" />,
-      title: "Travel Assistance",
-      description: "24/7 support for all your travel needs and emergencies.",
+      title: "Visa Facilitation",
+      description: "Obtaining a visa seems a hassle? Not anymore! Aerofy Travels ’ expertise in comprehensive visa facilitation services for all countries with Embassies, Consulates, or High Commissions in India makes obtaining a visa a cakewalk. Our visa facilitation services include visa documentation, visa application, and visa processing.",
+      features: [
+        "Emergency support",
+        "Travel documentation help",
+        "Local assistance",
+        "Concierge services"
+      ]
+    },
+    {
+      icon: <Shield className="h-12 w-12" />,
+      title: "Online Visa Forms",
+      description: "Simplify your visa application process with our expert online form-filling service. Our expert online visa form-filling service is designed to take the hassle out of visa applications, ensuring accuracy, efficiency, and peace of mind for our clients.",
+      features: [
+        "Emergency support",
+        "Travel documentation help",
+        "Local assistance",
+        "Concierge services"
+      ]
+    },
+    {
+      icon: <Shield className="h-12 w-12" />,
+      title: "Meeting and Assistance",
+      description: "Our expert team assists you at every step, from documentation to airport support, ensuring a stress-free visa process and travel experience. Our meet and assist services include personalised assistance, ensuring a seamless journey.",
+      features: [
+        "Emergency support",
+        "Travel documentation help",
+        "Local assistance",
+        "Concierge services"
+      ]
+    },
+    {
+      icon: <Shield className="h-12 w-12" />,
+      title: "Attestation and Legalisation",
+      description: "Our visa experts specialise in the systematic attestation and legalisation of various documents—commercial and non-commercial—at every level, from State to MEA to Embassy, ensuring seamless international acceptance.",
+      features: [
+        "Emergency support",
+        "Travel documentation help",
+        "Local assistance",
+        "Concierge services"
+      ]
+    },
+    {
+      icon: <Shield className="h-12 w-12" />,
+      title: "Onsite  Support & Implant",
+      description: "Experience the pinnacle of visa facilitation with our Onsite Support & Implant service. Our highly skilled executives, equipped with extensive visa expertise, are strategically stationed at your office to provide unparalleled assistance, ensuring efficient visa processes for your team.",
+      features: [
+        "Emergency support",
+        "Travel documentation help",
+        "Local assistance",
+        "Concierge services"
+      ]
+    },
+    {
+      icon: <Shield className="h-12 w-12" />,
+      title: "Indian E-Visa",
+      description: "Our expert team streamlines travel to India with expert facilitation of Indian E-Visas for foreign nationals. Simplify your journey for business or leisure; Aerofy Travels  ensures a seamless online visa application process, making travel hassle-free..",
       features: [
         "Emergency support",
         "Travel documentation help",
@@ -100,18 +155,24 @@ export function OtherServices() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                <div className="text-blue-600 mb-4">{service.icon}</div>
+                <div className="mb-4" style={{ color: '#1f8ae3' }}>
+                  {service.icon}
+                </div>
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <ul className="space-y-2">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center text-gray-600">
-                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                      <span className="w-2 h-2rounded-full mr-2 style={{ backgroundColor: '#2a9df4' }}"></span>
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors">
+                <button
+                  className="mt-6 w-full text-white py-2 rounded-md hover:bg-blue-700 transition-colors"
+                  style={{ backgroundColor: '#2a9df4' }}
+                  onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#1f8ae3'}
+                  onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#2a9df4'}>
                   Learn More
                 </button>
               </div>
@@ -127,7 +188,10 @@ export function OtherServices() {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Our travel experts are here to assist you in creating the perfect travel experience with our comprehensive services.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors">
+          <button className="text-white px-8 py-3 rounded-md transition-colors" 
+                  style={{ backgroundColor: '#2a9df4' }}
+                  onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#1f8ae3'}
+                  onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#2a9df4'}>
             Contact Us
           </button>
         </div>

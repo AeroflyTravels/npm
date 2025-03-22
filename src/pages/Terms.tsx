@@ -83,7 +83,7 @@ export function Terms() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">3. Travel Documents</h2>
+              <h2 className="text-2xl font-bold mb-4">3. Visa and Travel Documents</h2>
               <p className="text-gray-600 mb-4">
                 It is the traveler's responsibility to ensure they have valid travel documents, including:
               </p>
@@ -110,10 +110,18 @@ export function Terms() {
 
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4">5. Changes and Modifications</h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mb-4">
+                Aerofly Travels may update or modify these terms and conditions at any time.
                 We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting 
                 to our website. Your continued use of our services constitutes acceptance of the modified terms.
               </p>
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>Prices and availability are subject to change without notice.</li>
+                <li>Modifications to bookings may be subject to fees and availability.</li>
+                <li>Changes to bookings may be subject to fees and availability.</li>
+                <li>Cancellation policies vary depending on the service and may incur cancellation charges.</li>
+                <li>Refunds, if applicable, will be processed according to our refund policy.</li>
+              </ul>
             </section>
 
             <section className="mb-8">
@@ -124,23 +132,57 @@ export function Terms() {
               </p>
             </section>
 
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">7. Services</h2>
+              <p className="text-gray-600">
+              <li>Aerofly Travels provides a wide range of travel services, including: meet and assist, attestation and legalisation, onsite support & implant, Indian E-Visa processing, and more as per the agreed terms. </li>
+              <li> Sightseeing tours, international tour packages, air tickets, hotels, cruise, train tickets, and travel insurance are also offered as part of our services.</li>
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">8.  Customer Responsibilities</h2>
+              <p className="text-gray-600">
+              <li>Customers are responsible for providing accurate information during the booking process. </li>
+              <li> Customers must adhere to the rules and regulations of airlines, hotels, and other service providers.</li>
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">9. Disputes</h2>
+              <p className="text-gray-600">
+              <li>Any disputes or complaints should promptly be reported to Jetsave India Tours for resolution. </li>
+              <li> Disputes not resolved amicably shall be subject to the jurisdiction of the appropriate courts.</li>
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">10. Changes to Terms</h2>
+              <p className="text-gray-600">
+              <li>Aerofly Travels reserves the right to amend these terms and conditions at any time without prior notice. </li>
+              <li> Customers are advised to review the terms periodically for updates.</li>
+              </p>
+            </section>
+
             <section>
-              <h2 className="text-2xl font-bold mb-4">7. Contact Information</h2>
+              <h2 className="text-2xl font-bold mb-4">11. Contact Information</h2>
               <p className="text-gray-600 mb-4">
                 For questions about these terms, please contact us at:
               </p>
               <div className="bg-gray-50 p-4 rounded-md">
                 <p className="text-gray-600">Email: legal@aeroflytravel.com</p>
-                <p className="text-gray-600">Phone: +1 234 567 8900</p>
-                <p className="text-gray-600">Address: 123 Travel Street, City, Country</p>
+                <p className="text-gray-600">Phone: +91 8586980421</p>
+                <p className="text-gray-600">Address: Delhi India</p>
               </div>
             </section>
           </div>
 
           {/* Last Updated */}
           <div className="mt-8 text-center text-gray-500">
-            Last updated: March 1, 2024
-          </div>
+          <p className="text-center text-gray-400">
+          Last updated: {new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </p>
+        </div>
         </div>
       </div>
     </div>
